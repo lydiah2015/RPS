@@ -1,0 +1,13 @@
+.column {
+    float: left;
+    width: 18%;
+    padding: 100px;
+    margin-top: 40px;
+    /* height:300px; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
